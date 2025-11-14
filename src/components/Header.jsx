@@ -2,9 +2,14 @@ import { React } from "react";
 
 function Header() {
   return (
-    <>
-      <div>Header</div>
-    </>
+    <div className="header">
+      <img
+        src="public\lalitkumar-patil-photo.jpg"
+        alt="lalitkumar-patil-photo"
+      />
+      <h2>Lalitkumar Patil</h2>
+      <p>Frontend Developer | Software Developer</p>
+    </div>
   );
 }
 
