@@ -46,7 +46,7 @@ function Education() {
                 alt={item.institute}
               />
 
-              <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <div className="carousel-caption d-block bg-dark bg-opacity-50 rounded p-3">
                 <h5>{item.institute}</h5>
                 <p>
                   <strong>{item.className}</strong>
