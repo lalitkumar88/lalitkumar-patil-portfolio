@@ -24,7 +24,8 @@
 }
 
 .aboutBox {
-  width: 40%;
+  width: 100%;
+  max-width: 500px;
   min-height: 100px;
   border: rgb(32, 32, 142) 1px solid;
   background-color: #f6f1e9;
@@ -35,6 +36,13 @@
   z-index: 0;
   transform: translateZ(0);
   transition: all 0.7s ease;
+}
+
+/* two boxes per row on bigger screens */
+@media (min-width: 768px) {
+  .aboutBox {
+    width: 45%;
+  }
 }
 
 .aboutBox:hover {
