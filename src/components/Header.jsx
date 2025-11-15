@@ -5,7 +5,7 @@ function Header() {
     <div className="header">
       <img
         className="profileImg"
-        src="public\lalitkumar-patil-photo.jpg"
+        src="/lalitkumar-patil-photo.jpg"
         alt="lalitkumar-patil-photo"
       />
       <h2>Lalitkumar Patil</h2>
