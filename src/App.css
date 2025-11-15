@@ -3,20 +3,22 @@
   margin: 0;
 }
 
+/* header */
 .header {
   text-align: center;
   background-color: rgb(74, 74, 169);
   padding: 20px 0;
 }
 
-img {
+.profileImg {
   margin: 10px 0 0 0;
   height: 150px;
   border-radius: 15%;
 }
 
+/* about */
 .about {
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
   background-color: #f2f2f2;
 }
@@ -31,7 +33,7 @@ img {
   padding: 10px;
   position: relative;
   z-index: 0;
-  transform: translateZ(0); /* forces a stacking context */
+  transform: translateZ(0);
   transition: all 0.7s ease;
 }
 
@@ -45,7 +47,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px; /* optional but helps spacing look sane */
+  gap: 20px;
 }
 
 .aboutBoxHeading {
@@ -57,4 +59,52 @@ img {
   border-top: 1px solid black;
   opacity: 1;
   margin: 30px 70px;
+}
+
+/* experience */
+.experience {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #e9e4d8;
+}
+
+.experienceBox {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* education */
+.education {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #e8f3ff;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* education images responsive */
+.education img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .education img {
+    max-height: 450px;
+  }
+}
+
+/* captions */
+.carousel-caption {
+  bottom: 10px;
+  padding: 10px 15px;
 }

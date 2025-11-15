@@ -4,6 +4,7 @@ function Header() {
   return (
     <div className="header">
       <img
+        className="profileImg"
         src="public\lalitkumar-patil-photo.jpg"
         alt="lalitkumar-patil-photo"
       />
