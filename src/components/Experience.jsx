@@ -6,14 +6,15 @@ const experiences = [
     position: "Graduate Engineer Trainee",
     tenure: "Dec 2024 - Present",
     Description:
-      "Developed a fully functional and eye-catching UI of IaaS platform",
+      "Developed a fully functional and eye-catching UI of PaaS platform",
     techStack: "React.js, TypeScript, MUI, Bootstrap",
   },
   {
     company: "PHN Technologies",
     position: "Intern",
     tenure: "Jan 2023 - Mar 2023",
-    Description: "",
+    Description:
+      "Worked on designing and developing fully functional payment interface",
     techStack: "React.js, Javascript, Tailwind",
   },
 ];
