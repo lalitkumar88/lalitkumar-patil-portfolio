@@ -3,10 +3,18 @@ import React from "react";
 const experiences = [
   {
     company: "Vodafone Intelligent Solutions (VOIS)",
-    position: "Graduate Engineer Trainee",
-    tenure: "Dec 2024 - Present",
+    position: "Senior Executive",
+    tenure: "Jan 2026 - Present",
     Description:
-      "Developed a fully functional and eye-catching UI of PaaS platform",
+      "Leading UI development for internal PaaS platform, improving usability, performance, and design consistency across modules.",
+    techStack: "React.js, TypeScript, MUI, Bootstrap",
+  },
+  {
+    company: "Vodafone Intelligent Solutions (VOIS)",
+    position: "Graduate Engineer Trainee",
+    tenure: "Dec 2024 - Dec 2025",
+    Description:
+      "Developed a fully functional and eye-catching UI for a PaaS platform, contributing to core features and reusable components.",
     techStack: "React.js, TypeScript, MUI, Bootstrap",
   },
   {
@@ -14,8 +22,8 @@ const experiences = [
     position: "Intern",
     tenure: "Jan 2023 - Mar 2023",
     Description:
-      "Worked on designing and developing fully functional payment interface",
-    techStack: "React.js, Javascript, Tailwind",
+      "Worked on designing and developing a fully functional payment interface.",
+    techStack: "React.js, JavaScript, Tailwind",
   },
 ];
 
